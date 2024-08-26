@@ -74,11 +74,11 @@ function removeAnimal() {
     
     updateDOMList();
 
-    nameCardDisplay = '';
-    animalTypeCardDisplay = '';
-    genderCardDisplay = '';
-    breedCardDisplay = '';
-    ageCardDisplay = '';
+    nameCardDisplay.textContent = 'Name';
+    animalTypeCardDisplay.textContent = 'Animal';
+    genderCardDisplay.textContent = 'Gender';
+    breedCardDisplay.textContent = 'Breed';
+    ageCardDisplay.textContent = 'Age';
     adoptedBtn.disabled = true;
 };
 
